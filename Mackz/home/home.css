@@ -280,6 +280,7 @@ nav > a > img {
 }
 .visit-btn {
   display: flex;
+  color: #ffffff;
   width: 17rem;
   height: 4rem;
   font-weight: 500;
@@ -340,6 +341,9 @@ footer {
   display: flex;
   gap: 1.5rem;
   top: 5rem;
+}
+.icons > i {
+  cursor: pointer;
 }
 .privacy {
   color: #8b8b8b;
