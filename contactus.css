@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+html {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #f6f6f6;
+}
+nav {
+  background-color: #6b5848;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 4.4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 0 4rem;
+  z-index: 1;
+}
+nav > a > img {
+  width: 10rem;
+  height: 100%;
+}
+#logo {
+  height: 100%;
+}
+.nav-links > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links > ul > li {
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0 2rem;
+  color: #000000;
+  font-weight: 600;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  width: 12rem;
+  height: 50%;
+  background-color: #b5b5b5;
+  border-radius: 2rem;
+  padding: 0 1rem;
+}
+.nav-icons {
+  display: flex;
+  width: 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-icons > i {
+  font-size: 1.5rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title p{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+}
+.searchbox input{
+    position: absolute;
+    width: 600px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.semicontainer{
+    display: flex;
+    justify-content: center;
+}
+.subtitle{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.subtitle p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nameinput{
+    display: flex;
+    position: absolute;
+    top: 40%;
+}
+.input-box input{
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.otherinput{
+    display: flex;
+    position: absolute;
+    top: 48%;
+}
+.inputbox input{
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.phonebox{
+    position: absolute;
+    top: 56%;
+    left: 20%;
+}
+.phonebox input{
+    width: 460px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.comment-box{
+    display: flex;
+    position: absolute;
+    top: 64%;
+}
+.comment-box input{
+    width: 920px;
+    height: 200px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    top: 95%;
+}
+.btn button{
+    border-radius: 20px;
+    color: white;
+    background-color: #000000;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+}
