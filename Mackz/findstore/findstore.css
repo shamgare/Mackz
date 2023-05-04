@@ -47,6 +47,9 @@ nav > a > img {
   color: #000000;
   font-weight: 600;
 }
+.nav-links > ul > li > a{
+  color: #000000;
+}
 .searchbar {
   display: flex;
   align-items: center;
